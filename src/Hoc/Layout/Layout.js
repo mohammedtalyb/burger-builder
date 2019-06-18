@@ -8,6 +8,8 @@ class Layout extends Component {
     state = {
         showSidedrawer: false
     }
+   
+    
 
     sideDrawerTogglehandler = () => {
         const isShowSideDrawer = !this.state.showSidedrawer;
